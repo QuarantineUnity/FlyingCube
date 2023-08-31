@@ -45,9 +45,9 @@ public class Movement : MonoBehaviour
 
         //Vector3 tap = new Vector3(-ray.GetPoint(enter).x, -ray.GetPoint(enter).y);
 
-        Vector3 speedRight = new Vector3(1, (float)1.5) * power;
+        Vector3 speedRight = new Vector3((float)1.7, (float)2.25) * power;
 
-        Vector3 speedLeft = new Vector3(-1, (float)1.5) * power;
+        Vector3 speedLeft = new Vector3((float)-1.7, (float)2.25) * power;
 
         Vector3 zeroSpeed = new Vector3(0, 0);
         //transform.position * power
